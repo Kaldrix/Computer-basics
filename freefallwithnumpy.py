@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #To make the results more acurrate, I´ve done it on Earth
 Gravity = 9.81
 Height = float(input("Enter the initial height where the object is thrown: "))
-Time = np.linspace(0, 30)  
+Time = np.linspace(0, 999)  
 
 #Formula needed and specifying to Python the limit point where the grafic will stop
 Position = Height - 0.5 * Gravity * Time**2
